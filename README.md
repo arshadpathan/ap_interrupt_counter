@@ -6,13 +6,13 @@
 This project is an Arduino-based digital counter that utilizes interrupts to count digital events or pulses. It provides an efficient and accurate method for counting external signals without the need for continuous polling.
 
 # Features
-  - Interrupt-based Counting: The counter employs interrupts to detect and count digital events, ensuring precise and timely counting without blocking the Arduino's main loop.
-  - High Accuracy: By utilizing interrupts, the counter eliminates the possibility of missed events, providing reliable and accurate counting.
-  - Multiple Event Sources: It supports counting events from various digital sources such as sensors, switches, encoders, or any device that generates digital pulses.
-  - Flexible Event Triggering: The counter can be configured to trigger on rising edges, falling edges, or both, depending on the specific requirements of your project.
-  - Easy Integration: The project is designed to be easily integrated into existing Arduino projects. Simply connect the event source to the designated digital pin, and the counter will handle the rest.
-  - Clear and Extensible Code: The code is well-documented and organized, making it easy to understand, modify, and extend to suit your specific needs.
-  - Example Sketches: Included example sketches demonstrate how to use the counter with different event sources, allowing you to quickly get started and adapt it to your application.
+  - **Interrupt-based Counting:** The counter employs interrupts to detect and count digital events, ensuring precise and timely counting without blocking the Arduino's main loop.
+  - **High Accuracy:** By utilizing interrupts, the counter eliminates the possibility of missed events, providing reliable and accurate counting.
+  - **Multiple Event Sources:** It supports counting events from various digital sources such as sensors, switches, encoders, or any device that generates digital pulses.
+  - **Flexible Event Triggering:** The counter can be configured to trigger on rising edges, falling edges, or both, depending on the specific requirements of your project.
+  - **Easy Integration:** The project is designed to be easily integrated into existing Arduino projects. Simply connect the event source to the designated digital pin, and the counter will handle the rest.
+  - **Clear and Extensible Code:** The code is well-documented and organized, making it easy to understand, modify, and extend to suit your specific needs.
+  - **Example Sketches:** Included example sketches demonstrate how to use the counter with different event sources, allowing you to quickly get started and adapt it to your application.
 
 # Circuit Connections
 ![Circuit Connections](Circuits/ap_interrupt_counter_connections.jpg?raw=true "Circuit Connections")
